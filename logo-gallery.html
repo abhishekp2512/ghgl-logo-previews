@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compare all approved GHGL logo concepts on one page.">
+  <title>Approved GHGL Logo Gallery</title>
+  <style>
+    :root { color-scheme:light; --navy:#102a43; --teal:#087f7b; --muted:#526a78; --line:#dce6ea; --surface:#f4f8f9; --focus:#b45309; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-width:320px; background:var(--surface); color:var(--navy); font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; }
+    a:focus-visible { outline:3px solid var(--focus); outline-offset:4px; }
+    header { background:#fff; border-bottom:1px solid var(--line); }
+    .header-inner, main { width:min(1320px,calc(100% - 32px)); margin:auto; }
+    .header-inner { padding:2rem 0; }
+    .back-link { color:var(--teal); font-weight:700; text-decoration:none; }
+    h1 { margin:1.1rem 0 .6rem; font-size:clamp(2rem,5vw,4.25rem); line-height:1.05; letter-spacing:-.04em; }
+    .intro { max-width:760px; margin:0; color:var(--muted); font-size:1.1rem; line-height:1.7; }
+    main { padding:3rem 0 5rem; }
+    .logo-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:clamp(1rem,3vw,2rem); }
+    .logo-card { display:flex; flex-direction:column; min-height:390px; overflow:hidden; background:#fff; border:1px solid var(--line); border-radius:1rem; }
+    .logo-stage { flex:1; display:flex; align-items:center; justify-content:center; min-height:300px; padding:clamp(1rem,3vw,2rem); background:#fff; }
+    .logo-stage img { display:block; width:100%; max-height:300px; object-fit:contain; }
+    .logo-info { display:flex; justify-content:space-between; align-items:center; gap:1rem; padding:1.15rem 1.3rem; border-top:1px solid var(--line); }
+    .logo-info h2 { margin:0; font-size:1.05rem; }
+    .preview-link { flex:none; color:var(--teal); font-weight:750; text-decoration:none; }
+    .preview-link:hover { text-decoration:underline; }
+    @media (max-width:760px) {
+      .logo-grid { grid-template-columns:1fr; }
+      .logo-card { min-height:330px; }
+      .logo-stage { min-height:250px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a class="back-link" href="index.html">â† Back to preview selector</a>
+      <h1>Approved GHGL logos</h1>
+      <p class="intro">Compare every approved logo at a large, consistent size. Open the matching website preview to judge how each mark feels within the complete header and colour system.</p>
+    </div>
+  </header>
+  <main>
+    <div class="logo-grid">
+      <article class="logo-card"><div class="logo-stage"><img src="approved-logos/ghgl-approved-option-01.png" alt="Approved GHGL logo option 1"></div><div class="logo-info"><h2>Option 01</h2><a class="preview-link" href="preview-01.html">Website preview</a></div></article>
+      <article class="logo-card"><div class="logo-stage"><img src="approved-logos/ghgl-approved-option-02.png" alt="Approved GHGL logo option 2"></div><div class="logo-info"><h2>Option 02</h2><a class="preview-link" href="preview-02.html">Website preview</a></div></article>
+      <article class="logo-card"><div class="logo-stage"><img src="approved-logos/ghgl-approved-03-navy-teal-horizontal.png" alt="Approved navy and teal GHGL logo"></div><div class="logo-info"><h2>Option 03 â€” Navy and teal</h2><a class="preview-link" href="preview-03.html">Website preview</a></div></article>
+      <article class="logo-card"><div class="logo-stage"><img src="approved-logos/ghgl-approved-04-charcoal-blue-horizontal.png" alt="Approved charcoal and blue GHGL logo"></div><div class="logo-info"><h2>Option 04 â€” Charcoal and blue</h2><a class="preview-link" href="preview-04.html">Website preview</a></div></article>
+      <article class="logo-card"><div class="logo-stage"><img src="approved-logos/ghgl-approved-05-slate-green-horizontal.png" alt="Approved slate and forest green GHGL logo"></div><div class="logo-info"><h2>Option 05 â€” Slate and green</h2><a class="preview-link" href="preview-05.html">Website preview</a></div></article>
+      <article class="logo-card"><div class="logo-stage"><img src="approved-logos/ghgl-approved-06-minimal-key-document.png" alt="Approved minimal key and document GHGL logo"></div><div class="logo-info"><h2>Option 06 â€” Minimal key</h2><a class="preview-link" href="preview-06.html">Website preview</a></div></article>
+      <article class="logo-card"><div class="logo-stage"><img src="approved-logos/ghgl-approved-07-roof-key-document.png" alt="Approved roof, key and document GHGL logo"></div><div class="logo-info"><h2>Option 07 â€” Roof, key and document</h2><a class="preview-link" href="preview-07.html">Website preview</a></div></article>
+      <article class="logo-card"><div class="logo-stage"><img src="approved-logos/ghgl-approved-08-classic-key-document.png" alt="Approved classic key and document GHGL logo"></div><div class="logo-info"><h2>Option 08 â€” Classic key</h2><a class="preview-link" href="preview-08.html">Website preview</a></div></article>
+    </div>
+  </main>
+</body>
+</html>
+
